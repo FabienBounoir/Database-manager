@@ -1,0 +1,26 @@
+{
+  "name": "db-save",
+  "version": "1.0.0",
+  "description": "Save all db mongo document in zip file",
+  "main": "saveDatabase.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabienBounoir/DB-Save.git"
+  },
+  "author": "Fabien Bounoir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FabienBounoir/DB-Save/issues"
+  },
+  "homepage": "https://github.com/FabienBounoir/DB-Save#readme",
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "mongodb": "^5.5.0",
+    "unzipper": "^0.10.14"
+  }
+}
